@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only demo-container" data-reactid=".a"><div class="slds-grid slds-wrap" data-reactid=".a.0"><nav class="slds-col slds-size--1-of-1" data-reactid=".a.0.0">Header</nav><main class="slds-col slds-size--1-of-2 slds-medium-size--5-of-6 slds-large-size--8-of-12" data-reactid=".a.0.1">Main</main><aside class="slds-col slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--4-of-12" data-reactid=".a.0.2">Aside</aside><section class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-3" data-reactid=".a.0.3">Complementary</section><section class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-3" data-reactid=".a.0.4">Complementary</section><footer class="slds-col slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--1-of-3" data-reactid=".a.0.5"><div class="slds-grid slds-wrap" data-reactid=".a.0.5.0"><div class="slds-col slds-size--1-of-2 slds-medium-size--1-of-1 slds-large-size--6-of-12" data-reactid=".a.0.5.0.0">Content Info</div><div class="slds-col slds-size--1-of-2 slds-medium-size--1-of-1 slds-large-size--6-of-12" data-reactid=".a.0.5.0.1">Content Info</div></div></footer></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>

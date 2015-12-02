@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only demo--inverse" data-reactid=".1e"><div class="slds-spinner--small" data-reactid=".1e.0"><img src="/assets/images/spinners/slds_spinner_inverse.gif" alt="Loading..." data-reactid=".1e.0.0"></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>

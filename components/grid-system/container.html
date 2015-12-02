@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only demo-container" data-reactid=".b"><div data-reactid=".b.0"><div class="container" data-reactid=".b.0.0">Container</div><div class="slds-container--small" data-reactid=".b.0.1">Max Width: 576px</div><div class="slds-container--medium" data-reactid=".b.0.2">Max Width: 980px</div><div class="slds-container--large" data-reactid=".b.0.3">Max Width: 1210px</div><div class="slds-container--fluid" data-reactid=".b.0.4">Width 100%</div><div class="slds-container--left slds-container--small" data-reactid=".b.0.5">Left Aligned</div><div class="slds-container--center slds-container--small" data-reactid=".b.0.6">Center Aligned</div><div class="slds-container--right slds-container--small" data-reactid=".b.0.7">Right Aligned</div></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>

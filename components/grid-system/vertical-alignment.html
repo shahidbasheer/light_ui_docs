@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only demo-container" data-reactid=".n"><div class="slds-grid slds-grid--align-spread" style="height:150px;" data-reactid=".n.0"><div class="slds-align-top slds-col--padded" data-reactid=".n.0.0">Top Align</div><div class="slds-align-middle slds-col--padded" data-reactid=".n.0.1">Middle Align</div><div class="slds-align-middle slds-col--padded" data-reactid=".n.0.2">Middle Align</div><div class="slds-align-bottom slds-col--padded" data-reactid=".n.0.3">Bottom Align</div></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>

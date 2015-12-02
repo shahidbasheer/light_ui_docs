@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only demo-container" data-reactid=".9"><div class="slds-grid" data-reactid=".9.0"><div class="slds-col" data-reactid=".9.0.0">1</div><div class="slds-col" data-reactid=".9.0.1">1</div></div><div class="slds-grid" data-reactid=".9.1"><div class="slds-col" data-reactid=".9.1.0">2</div><div class="slds-col" data-reactid=".9.1.1"><div class="slds-grid" data-reactid=".9.1.1.0"><div class="slds-col" data-reactid=".9.1.1.0.0">I’m</div><div class="slds-col" data-reactid=".9.1.1.0.1">a nested</div><div class="slds-col" data-reactid=".9.1.1.0.2">grid</div></div></div><div class="slds-col" data-reactid=".9.1.2">2</div></div><div class="slds-grid" data-reactid=".9.2"><div class="slds-col" data-reactid=".9.2.0">4</div><div class="slds-col" data-reactid=".9.2.1">4</div><div class="slds-col" data-reactid=".9.2.2">4</div><div class="slds-col" data-reactid=".9.2.3">4</div></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>

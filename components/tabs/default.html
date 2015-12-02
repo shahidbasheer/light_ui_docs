@@ -1,0 +1,27 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../assets/styles/iframe.large.css"></head>
+<body>
+  <div id="preview"><div class="demo-only" data-reactid=".1l"><div class="slds-tabs--default" data-reactid=".1l.0"><ul class="slds-tabs--default__nav" role="tablist" data-reactid=".1l.0.0"><li class="slds-tabs--default__item slds-text-heading--label slds-active" title="Item One" role="presentation" data-reactid=".1l.0.0.$=10:0"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" data-reactid=".1l.0.0.$=10:0.0">Item One</a></li><li class="slds-tabs--default__item slds-text-heading--label" title="Item Two" role="presentation" data-reactid=".1l.0.0.$=11:0"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" data-reactid=".1l.0.0.$=11:0.0">Item Two</a></li><li class="slds-tabs--default__item slds-text-heading--label" title="Item Three" role="presentation" data-reactid=".1l.0.0.$=12:0"><a class="slds-tabs--default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-3" data-reactid=".1l.0.0.$=12:0.0">Item Three</a></li></ul><div id="tab-default-1" class="slds-tabs--default__content slds-show" role="tabpanel" data-reactid=".1l.0.1:$=10:0"><h2 data-reactid=".1l.0.1:$=10:0.0">Item One Content</h2></div><div id="tab-default-2" class="slds-tabs--default__content slds-hide" role="tabpanel" data-reactid=".1l.0.1:$=11:0"><h2 data-reactid=".1l.0.1:$=11:0.0">Item Two Content</h2></div><div id="tab-default-3" class="slds-tabs--default__content slds-hide" role="tabpanel" data-reactid=".1l.0.1:$=12:0"><h2 data-reactid=".1l.0.1:$=12:0.0">Item Three Content</h2></div></div></div></div>
+  <script>
+    (function() {
+      window.addEventListener('load', function() {
+        var eventName = 'iframe:load:' + window.name;
+        if (parent.window.__events) {
+          parent.window.__events.emit(eventName);
+        } else {
+          parent.window.__eventsQueue = parent.window.__eventsQueue || [];
+          parent.window.__eventsQueue.push({
+            name: eventName,
+            args: []
+          });
+        }
+      });
+    })();
+  </script>
+
+
+</body></html>
