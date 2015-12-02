@@ -1,0 +1,266 @@
+.orange {
+  color: #f16209;
+}
+
+.green {
+  color: #00d400;
+}
+
+.blue {
+  color: #00a1e0;
+}
+
+.dark-blue {
+  color: #035a96;
+}
+
+/* 
+ * ----------------------------------------------------------------------------------------
+ * Global Style.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Helpers.
+ * ----------------------------------------------------------------------------------------
+ */
+/* ----------------------------------------------------------------------------------------
+* Global Style.
+* Header styles.
+* Nav styles.
+* Main styles.
+* Sidebar styles.
+* Footer styles.
+* ----------------------------------------------------------------------------------------
+*/
+/*
+ * ----------------------------------------------------------------------------------------
+ * Header styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Nav styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Main styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Sidebar styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Footer styles.
+ * ----------------------------------------------------------------------------------------
+ */
+/*
+ * ----------------------------------------------------------------------------------------
+ * Responsive.
+ * ----------------------------------------------------------------------------------------
+ */
+/* -----------------------------
+-------- Buttons
+ ------------------------------*/
+.btn {
+  font-weight: normal;
+  border: 1px solid transparent;
+  padding: 16px 32px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 4px;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #00d400;
+  border-color: #00d400;
+}
+.btn-green:focus, .btn-green.focus {
+  color: #fff;
+  background-color: #00a100;
+  border-color: #005500;
+}
+.btn-green:hover {
+  color: #fff;
+  background-color: #00a100;
+  border-color: #009700;
+}
+.btn-green:active, .btn-green.active, .open > .btn-green.dropdown-toggle {
+  color: #fff;
+  background-color: #00a100;
+  border-color: #009700;
+}
+.btn-green:active:hover, .btn-green:active:focus, .btn-green:active.focus, .btn-green.active:hover, .btn-green.active:focus, .btn-green.active.focus, .open > .btn-green.dropdown-toggle:hover, .open > .btn-green.dropdown-toggle:focus, .open > .btn-green.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #007d00;
+  border-color: #005500;
+}
+.btn-green:active, .btn-green.active, .open > .btn-green.dropdown-toggle {
+  background-image: none;
+}
+.btn-green.disabled, .btn-green.disabled:hover, .btn-green.disabled:focus, .btn-green.disabled.focus, .btn-green.disabled:active, .btn-green.disabled.active, .btn-green[disabled], .btn-green[disabled]:hover, .btn-green[disabled]:focus, .btn-green[disabled].focus, .btn-green[disabled]:active, .btn-green[disabled].active, fieldset[disabled] .btn-green, fieldset[disabled] .btn-green:hover, fieldset[disabled] .btn-green:focus, fieldset[disabled] .btn-green.focus, fieldset[disabled] .btn-green:active, fieldset[disabled] .btn-green.active {
+  background-color: #00d400;
+  border-color: #00d400;
+}
+.btn-green .badge {
+  color: #00d400;
+  background-color: #fff;
+}
+
+.btn-default {
+  color: #000;
+  background-color: #fff;
+  border-color: #e4e4e4;
+}
+.btn-default:focus, .btn-default.focus {
+  color: #000;
+  background-color: #e6e6e6;
+  border-color: #a4a4a4;
+}
+.btn-default:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  border-color: #c5c5c5;
+}
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  color: #000;
+  background-color: #e6e6e6;
+  border-color: #c5c5c5;
+}
+.btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
+  color: #000;
+  background-color: #d4d4d4;
+  border-color: #a4a4a4;
+}
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+  background-image: none;
+}
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+  background-color: #fff;
+  border-color: #e4e4e4;
+}
+.btn-default .badge {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-dark-blue {
+  color: #fff;
+  background-color: #035a96;
+  border-color: #035a96;
+}
+.btn-dark-blue:focus, .btn-dark-blue.focus {
+  color: #fff;
+  background-color: #023c64;
+  border-color: #010f19;
+}
+.btn-dark-blue:hover {
+  color: #fff;
+  background-color: #023c64;
+  border-color: #02365a;
+}
+.btn-dark-blue:active, .btn-dark-blue.active, .open > .btn-dark-blue.dropdown-toggle {
+  color: #fff;
+  background-color: #023c64;
+  border-color: #02365a;
+}
+.btn-dark-blue:active:hover, .btn-dark-blue:active:focus, .btn-dark-blue:active.focus, .btn-dark-blue.active:hover, .btn-dark-blue.active:focus, .btn-dark-blue.active.focus, .open > .btn-dark-blue.dropdown-toggle:hover, .open > .btn-dark-blue.dropdown-toggle:focus, .open > .btn-dark-blue.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #012741;
+  border-color: #010f19;
+}
+.btn-dark-blue:active, .btn-dark-blue.active, .open > .btn-dark-blue.dropdown-toggle {
+  background-image: none;
+}
+.btn-dark-blue.disabled, .btn-dark-blue.disabled:hover, .btn-dark-blue.disabled:focus, .btn-dark-blue.disabled.focus, .btn-dark-blue.disabled:active, .btn-dark-blue.disabled.active, .btn-dark-blue[disabled], .btn-dark-blue[disabled]:hover, .btn-dark-blue[disabled]:focus, .btn-dark-blue[disabled].focus, .btn-dark-blue[disabled]:active, .btn-dark-blue[disabled].active, fieldset[disabled] .btn-dark-blue, fieldset[disabled] .btn-dark-blue:hover, fieldset[disabled] .btn-dark-blue:focus, fieldset[disabled] .btn-dark-blue.focus, fieldset[disabled] .btn-dark-blue:active, fieldset[disabled] .btn-dark-blue.active {
+  background-color: #035a96;
+  border-color: #035a96;
+}
+.btn-dark-blue .badge {
+  color: #035a96;
+  background-color: #fff;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-blue {
+  background: #3498db;
+}
+.btn-blue:hover {
+  background: #2383c4;
+  transition: all 0.3s ease;
+}
+.btn-blue:active {
+  background: #16527a;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+/* -----------------------------
+-------- form-control label
+ ------------------------------*/
+.form-control {
+  padding: 20px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-control::-moz-placeholder {
+  color: #000;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #000;
+}
+.form-control::-webkit-input-placeholder {
+  color: #000;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
